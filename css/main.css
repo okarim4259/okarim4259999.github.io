@@ -22,6 +22,27 @@ a {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
+
+/*My own styles*/
+.smaller-image1{
+  width: 350px;
+}
+
+.white-text{
+  color: white !important;
+}
+
+.thin-white-border{
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+  }
+
+#background-image{
+  background-image: url("https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg");
+}
+
+/*End of custom styles*/
 .btn {
   font-size: 14px;
   padding: 10px 30px;
@@ -124,8 +145,9 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
 }
 .section-header .section-title span {
-  color: #4676fa;
+  color: white/*#4676fa*/;
 }
+
 .section-header .section-subtitle {
   margin-top: 15px;
   color: #333;
